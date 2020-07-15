@@ -10,17 +10,17 @@
       "email": "joanis.ang3@gmail.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Ang3\\Component\\XmlRpc\\": "src/"
+    }
+  },
   "require": {
-    "php": "^7.0",
+    "php": "^7.2",
     "ext-xmlrpc": "*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
     "symfony/phpunit-bridge": "^3.4 || ^4.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Ang3\\Component\\XmlRpc\\": "src/"
-    }
   }
 }
