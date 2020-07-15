@@ -47,8 +47,19 @@ $client = new Client('<xmlrpc_server_url>');
 $result = $client->call('method_name', $args = []);
 ```
 
-> - A ```Ang3\Component\XmlRpc\Exception\TransportException``` when the request to the server failed.
+> - A ```Ang3\Component\XmlRpc\Transport\TransportException``` when the request to the server failed.
 > - A ```Ang3\Component\XmlRpc\Exception\RemoteException``` is thrown if the XML-RPC server returns an error.
 > - Both of previous exceptions extend exception ```Ang3\Component\XmlRpc\Exception\RequestException```
 
 That's it!
+
+Upgrades & updates
+==================
+
+### v1.0.1 (last stable)
+
+- Moved transport exception to transport folder.
+
+### v1.0.0
+
+- First release.
