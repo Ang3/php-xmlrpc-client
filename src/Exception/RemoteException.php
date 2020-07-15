@@ -4,8 +4,8 @@ namespace Ang3\Component\XmlRpc\Exception;
 
 class RemoteException extends RequestException
 {
-    public function __construct(int $faultCode, string $faultString)
+    public static function create(int $faultCode, string $faultString): self
     {
-        parent::__construct($faultString, $faultCode);
+        return new self($faultString, $faultCode);
     }
 }

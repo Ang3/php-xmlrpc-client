@@ -66,7 +66,7 @@ class Client
         $result = xmlrpc_decode($contents, 'utf-8');
 
         if (isset($result) && is_array($result) && xmlrpc_is_fault($result)) {
-            throw new RemoteException($result['faultCode'], $result['faultString']);
+            throw RemoteException::create($result['faultCode'], $result['faultString']);
         }
 
         return $result;
