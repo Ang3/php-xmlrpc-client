@@ -1,6 +1,7 @@
 {
   "name": "ang3/php-xmlrpc-client",
   "description": "PHP XML-RPC client",
+  "keywords": ["php","xmlrpc", "xml", "rpc", "client"],
   "type": "library",
   "license": "MIT",
   "authors": [
