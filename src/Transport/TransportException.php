@@ -1,6 +1,8 @@
 <?php
 
-namespace Ang3\Component\XmlRpc\Exception;
+namespace Ang3\Component\XmlRpc\Transport;
+
+use Ang3\Component\XmlRpc\Exception\RequestException;
 
 class TransportException extends RequestException
 {

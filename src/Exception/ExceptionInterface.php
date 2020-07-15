@@ -2,6 +2,6 @@
 
 namespace Ang3\Component\XmlRpc\Exception;
 
-interface ExceptionInterface
+interface ExceptionInterface extends \Throwable
 {
 }
