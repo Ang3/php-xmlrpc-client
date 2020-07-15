@@ -39,7 +39,6 @@ Then, call the desired method with optional arguments:
 require_once 'vendor/autoload.php';
 
 use Ang3\Component\XmlRpc\Client;
-use Ang3\Component\XmlRpc\Exception\RemoteException;
 
 // Create the client
 $client = new Client('<xmlrpc_server_url>');
