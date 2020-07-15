@@ -2,8 +2,6 @@
 
 namespace Ang3\Component\XmlRpc\Transport;
 
-use Ang3\Component\XmlRpc\Exception\TransportException;
-
 interface TransportInterface
 {
     /**
