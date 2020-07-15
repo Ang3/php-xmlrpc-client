@@ -8,7 +8,7 @@ PHP XML-RPC client
 
 PHP XML-RPC **client only** inspired from package 
 [DarkaOnLine/Ripcord](https://packagist.org/packages/darkaonline/ripcord).
-The code was rewritted so as to isolate the XML-RPC client and fix deprecations at the same time.
+The code was rewritted so as to isolate the XML-RPC client and fix code at the same time.
 
 Requirements
 ============
