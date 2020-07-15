@@ -30,7 +30,7 @@ class Stream implements TransportInterface
         );
 
         $context = stream_context_create($options);
-        $result = file_get_contents($url, false, $context);
+        $result = @file_get_contents($url, false, $context);
 
         if (false === $result) {
             throw TransportException::create($url);
