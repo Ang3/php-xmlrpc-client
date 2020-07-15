@@ -56,7 +56,11 @@ That's it!
 Upgrades & updates
 ==================
 
-### v1.0.1 (last stable)
+### v1.0.2 (last stable)
+
+- Fixed exceptions
+
+### v1.0.1
 
 - Moved transport exception to transport folder.
 
