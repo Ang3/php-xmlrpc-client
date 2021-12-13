@@ -7,7 +7,7 @@ php:
   - 8.0
 
 before_install:
-  - pecl install xmlrpc
+  - sudo apt-get install php$(phpenv version-name)-xmlrpc
   - composer self-update
   - composer install
 
