@@ -56,7 +56,11 @@ That's it!
 Upgrades & updates
 ==================
 
-### v1.0.2 (last stable)
+### v1.0.3
+
+- PHP 8.0 support
+
+### v1.0.2
 
 - Fixed exceptions
 
