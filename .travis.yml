@@ -7,7 +7,7 @@ php:
   - 8.0
 
 before_install:
-  - sudo apt-get install php$(phpenv version-name)-xmlrpc
+  - if [[ ${TRAVIS_PHP_VERSION:0:1} == "8" ]]; then pecl install xmlrpc-1.0.0RC2 fi
   - composer self-update
   - composer install
 
