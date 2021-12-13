@@ -1,7 +1,7 @@
 PHP XML-RPC client
 ==================
 
-[![Build Status](https://api.travis-ci.com/Ang3/php-xmlrpc-client.svg?branch=master)](https://travis-ci.org/Ang3/php-xmlrpc-client) 
+[![Build Status](https://api.travis-ci.com/Ang3/php-xmlrpc-client.svg?branch=master)](https://travis-ci.com/Ang3/php-xmlrpc-client) 
 [![Latest Stable Version](https://poser.pugx.org/ang3/php-xmlrpc-client/v/stable)](https://packagist.org/packages/ang3/php-xmlrpc-client) 
 [![Latest Unstable Version](https://poser.pugx.org/ang3/php-xmlrpc-client/v/unstable)](https://packagist.org/packages/ang3/php-xmlrpc-client) 
 [![Total Downloads](https://poser.pugx.org/ang3/php-xmlrpc-client/downloads)](https://packagist.org/packages/ang3/php-xmlrpc-client)
