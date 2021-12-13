@@ -7,6 +7,7 @@ php:
   - 8.0
 
 before_install:
+  - echo "extension=xmlrpc.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
   - composer self-update
   - composer install
 
